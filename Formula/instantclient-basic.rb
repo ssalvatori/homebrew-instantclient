@@ -14,7 +14,7 @@ class InstantclientBasic < Formula
                  end)
   sha256 "71aa366c961166fb070eb6ee9e5905358c61d5ede9dffd5fb073301d32cbd20c"
 
-  conflicts_with "instantclient-basiclite"
+  conflicts_with "ssalvatori/instantclient/instantclient-basiclite"
 
   def install
     lib.install Dir["*.dylib*"]
