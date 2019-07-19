@@ -12,14 +12,14 @@ then any additional files such as `sqlplus` related ones.
 ## Usage
 
 ```bash
-$ brew install InstantClientTap/instantclient/<formula>
+$ brew install ssalvatori/instantclient/<formula>
 ```
 
 Where `<formula>` is one of the formulas listed in the `Formula/` directory. For
 example `instantclient-sqlplus` would require
 
 ```bash
-$ brew install InstantClientTap/instantclient/instantclient-sqlplus
+$ brew install ssalvatori/instantclient/instantclient-sqlplus
 ```
 
 You could also tap the repository before installing. This is equivalent to the
